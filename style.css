@@ -1,0 +1,154 @@
+.container {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 50px;
+    background-color: #F5ECD5;
+    color: #3D3D3D;
+}
+
+.school {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.school > h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#owl {
+    font-weight: normal;
+    text-align: center;
+}
+
+.grades {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#good {
+    width: 250px;
+}
+
+#bad {
+    width: 250px;
+    text-align: end;
+}
+
+.grade-text {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.results-title > h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.results {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.subject {
+    width: 30%;
+    background-color: rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.subject > h3 {
+    font-size: 50pt;
+    margin: 0;
+}
+
+#A {
+    background-image: url(./Images/astronomy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#c {
+    background-image: url(./Images/comc.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ch {
+    background-image: url(./Images/charms.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#dada {
+    background-image: url(./Images/dada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#d {
+    background-image: url(./Images/divination.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#h {
+    background-image: url(./Images/herbology.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hom {
+    background-image: url(./Images/history.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#p {
+    background-image: url(./Images/potions.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#t {
+    background-image: url(./Images/transfiguration.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signature {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.signature-title {
+    font-weight: normal;
+}
+
+@media(max-width: 1280px) {
+    .results {
+        flex-direction: column;
+    }
+
+    .subject {
+        width: 100%;
+    }
+}
